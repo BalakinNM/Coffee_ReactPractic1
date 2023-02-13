@@ -1,0 +1,13 @@
+@import '../promo.scss';
+.promo {
+    &__best {
+        padding-top: 80px;
+        padding-bottom: 110px;
+        background: url('../../../assets/img/bg/best.jpg') center (center / cover) no-repeat;
+    }
+    &__coffee-items {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+}

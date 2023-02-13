@@ -1,43 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+  	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<meta
+		name="description"
+		content="Web site created using create-react-app"
+		/>
+		<title>React App</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../src/assets/css/style.min.css">
+  	</head>
+  	<body	body>
+		<!-- <header class="header">
+			<img src="../src/assets/icons/logo-white.svg" alt="coffee_logo" class="header__logo">
+			<a href="#" class="header__tab">Coffee house</a>
+			<a href="#" class="header__tab">Our coffee</a>
+			<a href="#" class="header__tab">For your pleasure</a>
+		</header> -->
+		<section class="promo">
+			<!-- <div class="promo__main">
+				<h1 class="promo__title">Everything You Love About Coffee</h1>
+				<img src="../src/assets/icons/Beans_separator_white.svg" alt="beans-separator" class="promo__separator">
+				<h2 class="promo__subtitle">We makes every day full of energy and taste</h2>
+				<h2 class="promo__subtitle">Want to try our beans?</h2>
+				<button class="promo__btn">More</button>
+			</div> -->
+			<!-- <div class="promo__about">
+				<h2 class="promo__subtitle promo__subtitle_black">About Us</h2>
+				<img src="../src/assets/icons/Beans_separator_black.svg" alt="promo__separator" class="promo__separator">
+				<div class="promo__descr">Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+					Afraid at highly months do things on at. Situation recommend objection do intention
+					so questions. As greatly removed calling pleased improve an. Last ask him cold feel
+					met spot shy want. Children me laughing we prospect answered followed. At it went
+					is song that held help face. <br><br>
+					
+					Now residence dashwoods she excellent you. Shade being under his bed her, Much
+					read on as draw. Blessing for ignorant exercise any yourself unpacked. Pleasant
+					horrible but confined day end marriage. Eagerness furniture set preserved far
+					recommend. Did even but nor are most gave hope. Secure active living depend son
+					repair day ladies now.</div>
+			</div> -->
+			<!-- <div class="promo__best">
+				<h2 class="promo__subtitle promo__subtitle_black">Our best</h2>
+				<div class="promo__coffee-items">
+					<div class="promo__coffee-item">
+						<img src="../src/assets/img/best_1.png" alt="Solimo" class="promo__coffee-item-img">
+						<div class="promo__coffee-item-descr">Solimo Coffee Beans 2 kg</div>
+						<div class="promo__coffee-item-price">10.73$</div>
+					</div>
+					<div class="promo__coffee-item">
+						<img src="../src/assets/img/best_2.png" alt="Presto" class="promo__coffee-item-img">
+						<div class="promo__coffee-item-descr">Presto Coffee Beans 1 kg</div>
+						<div class="promo__coffee-item-price">15.99$</div>
+					</div>
+					<div class="promo__coffee-item">
+						<img src="../src/assets/img/best_3.png" alt="AROMISTICO" class="promo__coffee-item-img">
+						<div class="promo__coffee-item-descr">AROMISTICO Coffee 1 kg</div>
+						<div class="promo__coffee-item-price">6.99$</div>
+					</div>
+				</div>
+			</div> -->
+		</section>
+		<section class="main">
+			<div class="main__header main__header-coffee main__coffee">
+				<div class="main__header-title">Our Coffee</div>
+			</div>
+			<div class="main__header main__header-goods main__goods">
+				<div class="main__header-title">For your pleasure</div>
+			</div>
+			<div class="main__info">
+				<img class="main__img main__coffee" src="../src/assets/img/our_coffee.jpg" alt="our_coffee">
+				<img class="main__img main__goods"src="../src/assets/img/our_goods.jpg" alt="our_goods">
+				<div class="main__descr">
+					<div class="main__subtitle main__coffee">About our beans</div>
+					<div class="main__subtitle main__goods">About our goods</div>
+					<img class="main__separator" src="../src/assets/icons/Beans_separator_black.svg" alt="Beans_separator_black">
+					<div class="main__text main__coffee">Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible. <br><br>
+						Afraid at highly months do things on at. Situation recommend objection do intention
+						so questions. <br>
+						As greatly removed calling pleased improve an. Last ask him cold feel
+						met spot shy want. Children me laughing we prospect answered followed. At it went
+						is song that held help face.</div>
+					<div class="main__text main__goods">Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible. <br><br>
+						Afraid at highly months do things on at. Situation recommend objection do intention
+						so questions. <br>
+						As greatly removed calling pleased improve an. Last ask him cold feel
+						met spot shy want. Children me laughing we prospect answered followed. At it went
+						is song that held help face.</div>
+				</div>
+				
+			</div>
+			<div class="main__search">
+				<div class="main__underline"></div>
+				<div class="main__filter">
+					<div class="main__input-descr">Lookiing for</div>
+					<input class="main__input" type="text" placeholder="start typing here...">
+					<div class="main__filter-descr">Or filter</div>
+					<button class="main__filter-btn brazil">Brazil</button>
+					<button class="main__filter-btn kenya">Kenya</button>
+					<button class="main__filter-btn columbia">Columbia</button>
+				</div>
+			</div>
+			<div class="main__items ">
+				<div class="main__item">
+					<img src="../src/assets/img/best_1.png" alt="coffee_img" class="main__item-img">
+					<div class="main__item-descr">AROMISTICO Coffee 1 kg</div>
+					<div class="main__item-country main__coffee">Brazil</div>
+					<div class="main__item-price">6.99$</div>
+				</div>
+				<div class="main__item">
+					<img src="../src/assets/img/best_1.png" alt="coffee_img" class="main__item-img">
+					<div class="main__item-descr">AROMISTICO Coffee 1 kg</div>
+					<div class="main__item-country main__coffee">Kenya</div>
+					<div class="main__item-price">6.99$</div>
+				</div>
+				<div class="main__item">
+					<img src="../src/assets/img/best_1.png" alt="coffee_img" class="main__item-img">
+					<div class="main__item-descr">AROMISTICO Coffee 1 kg</div>
+					<div class="main__item-country main__coffee">Columbia</div>
+					<div class="main__item-price">6.99$</div>
+				</div>
+				<div class="main__item">
+					<img src="../src/assets/img/best_1.png" alt="coffee_img" class="main__item-img">
+					<div class="main__item-descr">AROMISTICO Coffee 1 kg</div>
+					<div class="main__item-country main__coffee">Brazil</div>
+					<div class="main__item-price">6.99$</div>
+				</div>
+				<div class="main__item">
+					<img src="../src/assets/img/best_1.png" alt="coffee_img" class="main__item-img">
+					<div class="main__item-descr">AROMISTICO Coffee 1 kg</div>
+					<div class="main__item-country main__coffee">Brazil</div>
+					<div class="main__item-price">6.99$</div>
+				</div>
+				<div class="main__item">
+					<img src="../src/assets/img/best_1.png" alt="coffee_img" class="main__item-img">
+					<div class="main__item-descr">AROMISTICO Coffee 1 kg</div>
+					<div class="main__item-country main__coffee">Brazil</div>
+					<div class="main__item-price">6.99$</div>
+				</div>
+			</div>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+		</section>
+		<footer class="footer">
+			<div class="footer__tabs">
+				<img src="../src/assets/icons/logo_black.svg" alt="coffee_logo_black" class="footer__logo">
+				<a href="#" class="footer__tab">Coffee house</a>
+				<a href="#" class="footer__tab">Our coffee</a>
+				<a href="#" class="footer__tab">For your pleasure</a>
+			</div>
+			<img src="../src/assets/icons/Beans_separator_black.svg" alt="beans-separator-black" class="footer__separator">
+		</footer>
+    	<div id="root"></div>
+  	</body>
 </html>

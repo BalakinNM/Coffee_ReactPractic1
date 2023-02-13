@@ -1,0 +1,13 @@
+@import '../promo.scss';
+.promo {
+    &__about {
+        margin-top: 80px;
+    }
+    &__descr {
+        text-align: center;
+        display: block;
+        margin: 0  auto;
+        margin-bottom: 100px;
+        width: 677px;
+    }
+}

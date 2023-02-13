@@ -1,0 +1,33 @@
+@import 'base/variables';
+@import 'base/mixins';
+
+
+* {
+    font-family: 'Merienda', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/main';
+@import 'blocks/footer';
+
+.main__coffee {
+    display: none;
+}
+.main__goods {
+    display: none;
+}
+.main {
+    display: none;
+}
+.promo {
+    // display: none;
+}

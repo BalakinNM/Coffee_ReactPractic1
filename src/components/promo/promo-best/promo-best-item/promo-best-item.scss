@@ -1,0 +1,32 @@
+.promo {
+    &__coffee-items {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    &__coffee-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 220px;
+        height: 240px;
+        margin: 0 35px;
+        background-color: #FFFFFF;
+        &-img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 14px;
+        }
+        &-descr {
+            margin-bottom: 10px;
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+        }
+        &-price {
+            text-align: end;
+            margin-bottom: 22px;
+            margin-right: 20px;
+        }
+    }
+}
